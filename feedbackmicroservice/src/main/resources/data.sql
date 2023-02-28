@@ -1,0 +1,4 @@
+insert into feedback(feedback, product_id,product_name, rating,user_name) values ('This mobile is purely for normal use, I dont recommend this for heavy users.', 1,'Galaxy F13', 3.0,'guest');
+insert into feedback(feedback, product_id,product_name, rating,user_name) values ('Slipping in and out is a breeze.', 2,'Yeezy 450', 4.7,'guest');
+insert into feedback(feedback, product_id,product_name, rating,user_name) values ('Nice product. Happy with the bass quality.I am in love with my rockerz 510', 11,'Rockerz510', 5.0,'guest');
+insert into feedback(feedback, product_id,product_name, rating,user_name) values ('Good for casual music and Netfix. Not at all good for calls. I thought their ENx Tech for calls would be an upgrade from their previous products but it is  just the same. Not at all recommend for calls.', 10,'Airpods 131Pro', 3.0,'guest');
