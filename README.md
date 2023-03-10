@@ -24,42 +24,44 @@ Architecture Design:-
 
 
 Below are the modules that needs to be developed part of the Project:
-Req. No.
-Req. Name
-Req. Description
-REQ_01
-Customer module
-A portal that allows a customer to login and allows to modify customer details with help of following operations :
-Add details
-Update details
-Delete details
+
+#### Customer module 
+A portal that allows a customer to add and modify customer details and view customer feedbacks with help of following operations :
+Functionalities :- 
+1) Add Customer details
+2) Update Customer details
+3) Delete Customer details
 Store all details in customer database
-REQ_02
-Product module
-Product module includes:
-Get all products 
-Get product by Id
-Get product by name
-Get top Rated products
-Get least rated products
-Get all products of a Company
+
+#### Product module
+Product module includes: 
+1) Get all products 
+2) Get product by Id
+3) Get product by name
+4) Get top Rated products
+5) Get least rated products
+6) Get all products of a Company
+7) Get all products of a Category
 Store all details in product database
-REQ_03
-Feedback  module
+
+
+#### Feedback  module
 Feedback module is a Microservices that performs the following operations:
-Get the feedback response.
-Feedback module have following operations:
-Add Feedback
-Get Feedback 
+1) view Feedback of a Product
+2) Add Feedback to a Product
+3) View Feedbacks of a Customer.
 Store all details in feedback database
-REQ_04
-Authorization service
-This microservice is used with anonymous access to Generate JWT
-REQ_05
-Feedback Management Portal
-It allows Customer to Register his/her details and login as an authorized customer.
-Customers can see product details,top rated products and least rated products and give feedback and rating to any product from the portal.
-Customers can also see the feedback and ratings given to the products.
+
+
+#### Authorization service
+This microservice is used with anonymous access to Generate JWT.
+When a Customer Logins with his/her credentials , first the credentials are checked and then a token is generated for a Authorized user.
+Wherever the Customer wants to update his/her details , first the token is checked if its valid or not.
+
+1) Authenticates login credentials
+2) Authorizes a Customer.
+
+
 
 
 
