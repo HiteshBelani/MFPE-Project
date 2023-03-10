@@ -18,5 +18,48 @@ Product Feedback Portal (Frontend) is made using HTML,CSS and ReactJs.
 ![Wireframe Diagram](https://user-images.githubusercontent.com/66918672/224245315-24d3d0fe-7894-4972-9c58-845d6ea3325e.jpg)
 
 
+Architecture Design:-
+
+![MFPE Project Architecture Diagram](https://user-images.githubusercontent.com/66918672/224245768-11eae02a-0cbd-4286-a595-70f800e8af58.jpg)
+
+
+Below are the modules that needs to be developed part of the Project:
+Req. No.
+Req. Name
+Req. Description
+REQ_01
+Customer module
+A portal that allows a customer to login and allows to modify customer details with help of following operations :
+Add details
+Update details
+Delete details
+Store all details in customer database
+REQ_02
+Product module
+Product module includes:
+Get all products 
+Get product by Id
+Get product by name
+Get top Rated products
+Get least rated products
+Get all products of a Company
+Store all details in product database
+REQ_03
+Feedback  module
+Feedback module is a Microservices that performs the following operations:
+Get the feedback response.
+Feedback module have following operations:
+Add Feedback
+Get Feedback 
+Store all details in feedback database
+REQ_04
+Authorization service
+This microservice is used with anonymous access to Generate JWT
+REQ_05
+Feedback Management Portal
+It allows Customer to Register his/her details and login as an authorized customer.
+Customers can see product details,top rated products and least rated products and give feedback and rating to any product from the portal.
+Customers can also see the feedback and ratings given to the products.
+
 
 
