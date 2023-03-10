@@ -15,3 +15,8 @@ This project is based on microservice architecture . There are 4 microservices i
 
 Product Feedback Portal (Frontend) is made using HTML,CSS and ReactJs.
 
+![Wireframe Diagram](https://user-images.githubusercontent.com/66918672/224245315-24d3d0fe-7894-4972-9c58-845d6ea3325e.jpg)
+
+
+
+
